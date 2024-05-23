@@ -8,7 +8,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/tranxuanhao2001/gitops.git
-    path: charts
+    path: .
     targetRevision: HEAD
   destination:
     server: https://kubernetes.default.svc
